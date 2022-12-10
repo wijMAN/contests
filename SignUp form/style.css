@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+div form{
+    padding: 40px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.signup{
+    /* font-family: 'Inter'; */
+    /* font-style: normal; */
+    font-size: 60px;
+    color: #FFFFFF;
+
+}
+.content{
+    /* font-family: 'Inter'; */
+    /* font-style: normal; */
+    font-size: 20px;
+    color: #FFFFFF;
+}
+#student{
+    /* background-color: rgb(17, 7, 7); */
+    border: red 5px solid;
+}
+.btn{
+    font-size: 20px;
+    padding: auto;
+}
+#select1{
+    background-color: rgb(218, 40, 40);
+    border-bottom: green;
+}
