@@ -1,55 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Signup Form</title>
-    <meta name="description" content="Signup form for employee & students.">
-    <meta name="author" content="Wijdan">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2798/2798119.png" type="image/x-icon">
-</head>
-<body>
+    <meta name="description" content="Signup form for employee & students." />
+    <meta name="author" content="Wijdan" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/2798/2798119.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
     <div>
-        <form>
-            <label id="signup">Signup</label>
-            <br><br><br>
-            <div class="content">
-                <input class="test" type="text" id="name" placeholder="Full Name" required>
-                <br>
-                <br>
+      <form>
+        <label id="signup">Signup</label>
+        <br /><br /><br />
+        <div class="content">
+          <input
+            class="test"
+            type="text"
+            id="name"
+            placeholder="Full Name *"
+            required
+          />
+          <br />
+          <br />
 
-                <input class="test" type="email" id="email" placeholder="Email" required>
-                <br>
-                <br>
+          <input
+            class="test"
+            type="email"
+            id="email"
+            placeholder="Email *"
+            required
+          />
+          <br />
+          <br />
 
-                <input class="test" type="password" id="password" placeholder="Password" required>
-                <br>
-                <br>
+          <input
+            class="test"
+            type="password"
+            id="password"
+            placeholder="Password *"
+            required
+          />
+          <br />
+          <br />
 
-                <input class="test" type="password" id="confirm_password" placeholder="Confirm Password" required>
-                <br>
-                <br>
+          <input
+            class="test"
+            type="password"
+            id="confirm_password"
+            placeholder="Confirm Password *"
+            required
+          />
+          <br />
+          <br />
 
-                <input class="test" type="date" id="dob" placeholder="MM/DD/YYYY" required>
-                <br>
-                <br>
+          <input
+            class="test"
+            type="date"
+            id="dob"
+            placeholder="MM/DD/YYYY *"
+            required
+          />
+          
+          <br />
+          <br />
 
+          <input type="radio" name="select" id="student" required />
+          <label for="student" id="student_label">Student</label>
+          <input type="radio" name="select" id="employee" required />
+          <label for="employee">Employee</label>
+          <br /><br />
 
-                <input type="radio" name="select" id="student" required>
-                <label for="student" id="student_label">Student</label>
-                <input type="radio" name="select" id="employee" required>
-                <label for="employee">Employee</label>
-                <br><br>
+          <input type="checkbox" id="consent" required />
+          <label for="consent">I agree to all the Terms and conditions</label>
+          <br /><br />
 
-                <input type="checkbox" id="consent" required>
-                <label for="consent">I agree to all the Terms and conditions</label>
-                <br><br>
-
-                <button type="submit" class="btn">Signup</button>
-            </div>
-        </form>
+          <button type="submit" class="btn">Signup</button>
+        </div>
+      </form>
     </div>
-</body>
+  </body>
 </html>
